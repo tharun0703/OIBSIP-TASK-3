@@ -11,11 +11,11 @@ public class ATM
         while(true)  
         {  
             System.out.println("**********ATM Machine********** \n");  
-            System.out.println("Select 1 for Withdraw");  
-            System.out.println("Select 2 for Deposit");  
-            System.out.println("Select 3 for Check Current Balance");  
-            System.out.println("Select 4 for Terminate\n");  
-            System.out.print("Select the operation:"); 
+            System.out.println("Press 1 for Withdraw");  
+            System.out.println("Press 2 for Deposit");  
+            System.out.println("Press 3 for Check Current Balance");  
+            System.out.println("Press 4 for Terminate\n");  
+            System.out.print("Press the operation:"); 
             int select = sc.nextInt();  
             switch(select)  
             {  
